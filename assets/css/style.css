@@ -55,10 +55,11 @@ section{
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
   
 .primary-border {
@@ -68,10 +69,6 @@ section{
 .secondary-border {
     border-color: #39a6b2;
 }
-
-.intro {
-    text-align: center;
-}
   
 .intro p {
     line-height: 1.7;
@@ -79,10 +76,10 @@ section{
     width: 80%;
     font-size: 20px;
     margin: 0px auto;
+    text-align: center;
 }
 
 .steps { 
-    text-align: center;
     background: #fce138;
 }
 
@@ -179,9 +176,6 @@ section{
 }
 
 /* trainers */
-.trainers {
-    text-align: center;
-}
 .trainer, .contact {
     width: 900px;
     margin: 0 auto 30px auto;
@@ -189,6 +183,7 @@ section{
     color: #fce138;
     overflow: auto;
 }
+
 .trainer img {
     width: 35%;
     float: left;
@@ -198,14 +193,6 @@ section{
     padding: 35px;
     float: left;
     width: 65%;
-}
-
-.text-left {
-    text-align: left;
-}
-  
-.text-right {
-    text-align: right;
 }
 
 .trainer-bio h3 {
@@ -227,7 +214,6 @@ section{
 .contact {
     width: 100%;
     margin: 0px auto;
-    text-align: center;
 }
 
 .contact-border{
@@ -292,4 +278,17 @@ footer div {
 
 footer a {
     color: #024e76;
+}
+
+/* Universal CSS Rules */
+.text-left {
+    text-align: left;
+}
+  
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
 }
